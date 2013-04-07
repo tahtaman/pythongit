@@ -6,7 +6,7 @@ Documentation for module now_event.py
 import datetime
 
 #'''
-quest = 'WC FIS ski 4x5km'
+quest = 'Hard drinking!'
 quest_start_day = 7
 quest_start_hour = 15
 quest_start_minute = 20
