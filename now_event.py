@@ -31,7 +31,7 @@ def display_now_events(event_date, event_hour_start, event_min_start,
                        event_hour_end, event_min_end, quest):
     '''
     ------------------------------------------------
-    Documentation for function display_now_events.
+    Documentation for function display_now_events().
     ------------------------------------------------
     '''
     #переводим получаемое время в десятичный вид
