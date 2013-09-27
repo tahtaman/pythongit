@@ -34,6 +34,7 @@ def find(fl, word):
             print('line', index, '-', 'have', find_word)
         else: continue
 
-count_func(file_name, find_word)
-print('In file {0} contains {1} words "{2}"'.format(file_name, count, find_word))
-find(file_name, find_word)
+if __name__ == '__main__':
+    count_func(file_name, find_word)
+    print('In file {0} contains {1} words "{2}"'.format(file_name, count, find_word))
+    find(file_name, find_word)

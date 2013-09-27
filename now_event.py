@@ -52,5 +52,6 @@ def display_now_events(event_date, event_hour_start, event_min_start,
         else: return print('no events now time')
     else: return print('No events today')
 
-print(display_now_events(quest_start_day, quest_start_hour, quest_start_minute,
+if __name__ == '__main__':
+    print(display_now_events(quest_start_day, quest_start_hour, quest_start_minute,
                          quest_end_hour, quest_end_minute, quest))
